@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fi-FI">
+    <head>
+        <meta charset="utf-16" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Nurmilaukas</title> 
+        <link rel="icon" type="image/x-icon" href="photos/favicon.ico">
+        <link href="styles/style.css" rel="stylesheet" />
+
+    </head>
+
+    <body>
+	<img src="photos/banneri.png" alt="Christmas style Simo Sivut" id="banner">
+        <header>
+		 <ul class="navbar">
+  			<li><a href="default.asp">Home</a></li>
+  			<li><a href="news.asp">News</a></li>
+  			<li><a href="contact.asp">Contact</a></li>
+  			<li><a href="about.asp">About</a></li>
+		</ul> 
+        </header>
+
+    <main>
+        <h2>Tux on työn touhussa!!!</h2>
+	    <img src="photos/tux_computer_dig_md_clr.gif" alt="Tux working on computer"">
+    
+
+        <aside>
+
+
+        </aside>
+    </main>
+        
+	
+
+        <footer>
+
+
+        </footer>
+    </body>
+
+
+
+</html>

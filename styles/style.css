@@ -2,11 +2,50 @@ html {
     background-image: url("../photos/background.jpg");
 }
 main {
-    width: 600px;
+    width: 80%;
     margin: 0 auto;
     background-image: url("../photos/5004.png"); 
 
 }
+#banner {
+	width: 80%;
+	margin: 0 auto;
+	background-image: url("../photos/1138.png");
+}
+
+header {
+	width: 80%;
+	margin: 0 auto;
+	background-image: url("../photos/1138.png");
+}
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;         /* Asettaa linkit vierekkäin */
+  gap: 16px;             /* Väli elementtien väliin */
+  background-color: #333;
+}
+
+/* Linkkien perusmuotoilu */
+.navbar li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+/* Hover-efekti */
+.navbar li a:hover {
+  background-color: #555;
+}
+
+/* Aktiivinen sivu */
+.navbar li a.active {
+  background-color: #04AA6D;
+}
+
 
 h1 {
     color: rgba(70, 49, 0, 0.967);
@@ -17,14 +56,24 @@ h1 {
 
 h2 {
     display: block;
-    color: blueviolet;
     font-size: 40px;
     margin: auto auto;
     max-width: 100%;
+    text-align: center;
+}
+p {
+	text-align:center;
+	padding: 5px;
+	margin: auto auto;
 }
 
 img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
